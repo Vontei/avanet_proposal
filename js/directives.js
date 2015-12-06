@@ -3,3 +3,4 @@ app.directive('compass', function(){
     templateUrl: './../compass.html'
   };
 })
+ 

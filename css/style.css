@@ -18,13 +18,11 @@ td {
 }
 
 
-
 .nw {
   -ms-transform: rotate(-135deg); /* IE 9 */
   -webkit-transform: rotate(-135deg); /* Safari */
   transform: rotate(-135deg);
   font-size: 2.5em;
-
 }
 
 .sw {
@@ -32,7 +30,6 @@ td {
   -webkit-transform: rotate(135deg); /* Safari */
   transform: rotate(135deg);
   font-size: 2.5em;
-
 }
 
 .ne {
@@ -48,5 +45,4 @@ td {
   -webkit-transform: rotate(45deg); /* Safari */
   transform: rotate(45deg);
   font-size: 2.5em;
-
 }

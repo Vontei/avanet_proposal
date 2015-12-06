@@ -1,4 +1,3 @@
-
 # Avanet Feature Proposal
 
 Project Dependencies & Instructions:

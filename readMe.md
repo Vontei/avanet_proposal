@@ -99,6 +99,7 @@ If filtering by degree is an important feature:
 
 Site Issues and Comments:
 * On the faqs tab under ordering, the footer is not fixed to the bottom of the page as it is throughout the rest of the site. easy fix.
+* There are also several instances of errors in the console due to tiles or resources not loading properly. I'm not sure where they are coming from, but it may just be an angular issue/ quirk.
 * Feature Proposal:
   * Subscriptions:  As a user, I can subscribe to a location, like my hometown and surrounding areas. For example, if I register my home as Crested Butte, when I log in, I am immediate taken to CB on the map, and can view a list of the most recent observations.
   * Feed: It may be nice in the future as observations increase to have access to a feed or list of tiles showing observations off the map. As a user, I can read through recent observations without having to pin point them by location.

@@ -50,7 +50,7 @@ The Current UI
   * Ranges only, would be less intuitive and clean.
   * We are using Angular, not Jquery, so the complexity of charting and interaction increases, slightly.
   * 2 inputs: The prompt asks for 2 inputs to see 3 aspects.  I gave this serious consideration.  I ultimately decided that though my implementation took 3 clicks to get the same result...it was a small sacrifice that was worth making, for now.
-
+  * As a result of the discovery period and approach issues, less code was written.
 
 ## Decision:
 * The hardest functionality decision I made, was to rule out a draggable compass, and ultimately to force users into making less decisions.  I.e. Pick the aspects you want outright.  But, this also allows for multiple selections without including 180 degrees, for example.

@@ -1,0 +1,172 @@
+<div ng-controller='compassController'>
+  <!-- Created a Re-Usable Directive for the compass -->
+  <table style='text-align: center;' class='compass'>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>N</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>NW</td>
+        <td></td>
+        <td>
+          <span ng-click="getBearing('n'); n=!n"
+                ng-model='n'
+                ng-class="{'blue' : n}"
+                class="glyphicon glyphicon-triangle-top">
+          </span>
+        </td>
+        <td></td>
+        <td>NE</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>
+          <span ng-click="getBearing('nw'); nw=!nw"
+                ng-class="{'blue' : nw}"
+                class="glyphicon glyphicon-triangle-right nw">
+          </span>
+        </td>
+        <td></td>
+        <td>
+          <span ng-click="getBearing('ne'); ne=!ne"
+                ng-class="{'blue' : ne}"
+                class="glyphicon glyphicon-triangle-right ne">
+          </span>
+        </td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>W</td>
+        <td>
+          <span ng-click="getBearing('w'); w=!w"
+                ng-class="{'blue' : w}"
+                class="glyphicon glyphicon-triangle-left ">
+          </span>
+        </td>
+        <td></td>
+        <td><img height='50' width='50' src='http://img1.123freevectors.com/wp-content/uploads/portal/snowflake-crystal-clip-art-free-vector-593.jpg'></td>
+        <td></td>
+        <td>
+          <span ng-click="getBearing('e'); e=!e"
+                ng-class="{'blue' : e}"
+                class="glyphicon glyphicon-triangle-right ">
+          </span>
+        </td>
+        <td>E</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>
+          <span ng-click="getBearing('sw'); sw=!sw"
+                ng-class="{'blue' : sw}"
+                class="glyphicon glyphicon-triangle-right sw">
+          </span>
+        </td>
+        <td></td>
+        <td>
+          <span ng-click="getBearing('se'); se=!se"
+                ng-class="{'blue' : se}"
+                class="glyphicon glyphicon-triangle-right se">
+          </span>
+        </td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>SW</td>
+        <td></td>
+        <td>
+          <span ng-click="getBearing('s'); south = !south; vm.toggle()"
+                ng-class="{'blue': south}"
+                class="glyphicon glyphicon-triangle-bottom ">
+          </span>
+        </td>
+        <td></td>
+        <td>SE</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>S</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+<!---             Uncomment this to See a Demo of The RZSlider   ------------>
+
+
+  <!-- <div class='col-lg-4 col-lg-offset-4'>
+    <rzslider ng-show="south"
+              rz-slider-model="160"
+              rz-slider-high="199"
+              rz-slider-options="{ceil: 199,floor: 160,draggableRange: true}">
+    </rzslider>
+    <rzslider ng-show="sw"
+              rz-slider-model="160"
+              rz-slider-high="199"
+              rz-slider-options="minRangeSlider.options">
+    </rzslider>
+    <rzslider ng-show="se"
+              rz-slider-model="160"
+              rz-slider-high="199"
+              rz-slider-options="minRangeSlider.options">
+    </rzslider>
+    <rzslider ng-show="n"
+              rz-slider-model="340"
+              rz-slider-high="360"
+              rz-slider-options="{ceil: 360,floor: 340,draggableRange: true}">North
+    </rzslider>
+    <rzslider ng-show="n"
+              rz-slider-model="0"
+              rz-slider-high="20"
+              rz-slider-options="{ceil: 20,floor: 0,draggableRange: true}">North
+    </rzslider>
+    <rzslider ng-show="ne"
+              rz-slider-model="160"
+              rz-slider-high="199"
+              rz-slider-options="minRangeSlider.options">
+    </rzslider>
+    <rzslider ng-show="nw"
+              rz-slider-model="160"
+              rz-slider-high="199"
+              rz-slider-options="minRangeSlider.options">
+    </rzslider>
+    <rzslider ng-show="e"
+              rz-slider-model="160"
+              rz-slider-high="199"
+              rz-slider-options="minRangeSlider.options">
+    </rzslider>
+    <rzslider ng-show="w"
+              rz-slider-model="160"
+              rz-slider-high="199"
+              rz-slider-options="minRangeSlider.options">
+    </rzslider>
+  </div> -->
+
+
+
+  <!-- Uncomment this to see the live updating array of degrees, warning, its ugly  -->
+
+
+  <!-- <p>{{searchableDegrees}}</p> -->
+
+
+</div>

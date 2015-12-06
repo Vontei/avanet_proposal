@@ -1,0 +1,52 @@
+td {
+  height: 25px;
+  width: 25px;
+  font-weight: bolder;
+}
+
+.glyphicon{
+  font-size: 4em;
+}
+
+.blue {
+  color: blue;
+}
+
+.compass{
+  margin: 0 auto;
+  margin-top: 10em;
+}
+
+
+
+.nw {
+  -ms-transform: rotate(-135deg); /* IE 9 */
+  -webkit-transform: rotate(-135deg); /* Safari */
+  transform: rotate(-135deg);
+  font-size: 2.5em;
+
+}
+
+.sw {
+  -ms-transform: rotate(135deg); /* IE 9 */
+  -webkit-transform: rotate(135deg); /* Safari */
+  transform: rotate(135deg);
+  font-size: 2.5em;
+
+}
+
+.ne {
+  -ms-transform: rotate(-45deg); /* IE 9 */
+  -webkit-transform: rotate(-45deg); /* Safari */
+  transform: rotate(-45deg);
+  font-size: 2.5em;
+
+}
+
+.se {
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Safari */
+  transform: rotate(45deg);
+  font-size: 2.5em;
+
+}

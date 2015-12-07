@@ -97,19 +97,19 @@ If filtering by degree is an important feature:
 ## Wrap-Up
 
 Site Issues and Comments:
-* On the faqs tab under ordering, the footer is not fixed to the bottom of the page as it is throughout the rest of the site. easy fix.
-* There are also several instances of errors in the console due to tiles or resources not loading properly. I'm not sure where they are coming from, but it may just be an angular issue/ quirk.
+* On the faqs tab under ordering, the footer is not fixed to the bottom of the page as it is throughout the rest of the site. Easy fix.
+* There are also several instances of errors in the console due to tiles or resources not loading properly. I'm not sure where they are coming from, but it may just be an angular issue/ quirk (affects load time).
 * Feature Proposal:
-  * Subscriptions:  As a user, I can subscribe to a location, like my hometown and surrounding areas. For example, if I register my home as Crested Butte, when I log in, I am immediate taken to CB on the map, and can view a list of the most recent observations.
+  * Subscriptions:  As a user, I can subscribe to a location, like my hometown and surrounding areas. For example, if I register my home as Crested Butte, when I log in, I am immediately taken to CB on the map, and can view a list of the most recent observations.
   * Feed: It may be nice in the future as observations increase to have access to a feed or list of tiles showing observations off the map. As a user, I can read through recent observations without having to pin point them by location.
     *  Perhaps another dash?
     *   Social media integration?
-  * STRETCH:  there are numerous radio feeds being broadcast with avalanche conditions every day. I wonder if they provide RSS feeds that can be brought in to you User home page, or integration to listen via your dash.
+  * STRETCH:  there are numerous radio feeds being broadcast with avalanche conditions, every day. I wonder if they provide RSS feeds that can be brought in to your User home page. Or integrate local radio broadcasts as a feature?
 
 
 Overall: I love what is available thus far, awesome job.
 
-I just wanted to say that this was a fun problem! I have never built a compass, and given more time I'm sure I could have made a more feature rich tool.  There are dozens of small problems inherent in a compass, all interesting, all unique, and especially as you move into a canvas version... increasingly difficult.  
+I just wanted to say that this was a fun problem! I have never built a compass, and given more time I'm sure I could have built a more feature rich tool.  There are dozens of small problems inherent in a compass, all interesting, all unique, and especially as you move into a canvas... they are increasingly difficult.  
 
 
 
